@@ -1,0 +1,54 @@
+.body{
+    background-color: gray;
+
+}
+
+.box{
+background-color: white;
+height: 200px;
+width: 200px;
+position: relative;
+animation-name: paka;
+animation-duration: 4s;
+animationn-iteration-count:infiniti;
+animation-delay: 5s;
+animation-direction: reverse;
+}
+@keyframes paka{
+    0%{
+        background-color: white;
+        left: 0px;
+        top:0px;
+        border-radius: 0%;
+    }
+
+    25%{
+        background-color: aqua;
+        left:0px;
+        top:250px;
+        border-radius: 10%;
+    }
+    
+    50%{
+        background-color: cadetblue;
+        left:250px;
+        top:25000;
+        border-radius: 25;
+    }
+
+    75%{
+        background-color: lightgreen;
+        left:2500;
+        top:0px;
+        border-radius: 40;
+
+    }
+
+    100%{
+        background-color: blueviolet;
+        left:00px;
+        top:0px;
+        border-radius: 60;
+
+    }
+}
